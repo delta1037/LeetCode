@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/20_ValidParentheses.dir/main.c.o  -o 20_ValidParentheses 

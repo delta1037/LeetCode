@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/70_ClimingStairs__.dir/main.c.o  -o 70_ClimingStairs__ 

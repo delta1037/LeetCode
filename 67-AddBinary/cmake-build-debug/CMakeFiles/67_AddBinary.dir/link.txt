@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/67_AddBinary.dir/main.c.o  -o 67_AddBinary 

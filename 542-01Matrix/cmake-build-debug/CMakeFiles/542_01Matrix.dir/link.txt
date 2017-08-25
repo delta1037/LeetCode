@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/542_01Matrix.dir/main.c.o  -o 542_01Matrix 

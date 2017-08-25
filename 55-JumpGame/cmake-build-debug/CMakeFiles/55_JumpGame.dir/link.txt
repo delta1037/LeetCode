@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/55_JumpGame.dir/main.c.o  -o 55_JumpGame 
