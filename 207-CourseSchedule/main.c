@@ -30,24 +30,22 @@ bool canFinish(int numCourses, int **prerequisites, int prerequisitesRowSize) {
     int indegree[numCourses];
     int i,j,k;
     int **matrix;
+    //二维数组malloc
     matrix=(int**)malloc(numCourses*sizeof(int*));
-    for(i=0;i<numCourses;i++){
-        matrix[i]=(int*)malloc(numCourses* sizeof(int));
-    }
 
     //初始化
     for(i=0;i<numCourses;i++){
+        indegree[i]=0;
+        matrix[i]=(int*)malloc(numCourses* sizeof(int));
         for(j=0;j<numCourses;j++){
             matrix[i][j]=0;
         }
     }
-    for(i=0;i<numCourses;i++){
-        indegree[i]=0;
-    }
+
     //存储数据
     for (i = 0; i<prerequisitesRowSize; i ++) {
         if (matrix[prerequisites[i][0]][prerequisites[i][1]] == 1){
-            continue;
+            continue;   //重复时就跳过
         }
         indegree[prerequisites[i][1]] ++;
         matrix[prerequisites[i][0]][prerequisites[i][1]] = 1;
@@ -55,11 +53,11 @@ bool canFinish(int numCourses, int **prerequisites, int prerequisitesRowSize) {
 
     for (i = 0; i < numCourses; i ++) {
         for (j = 0; j < numCourses; j ++) {
-            if (indegree[j] == 0) {
+            if (indegree[j] == 0) {  //选择一个入度为0的顶点并输出之
                 indegree[j] --;
                 for (k = 0; k < numCourses; k ++) {
                     if (matrix[j][k] == 1) {
-                        indegree[k] --;
+                        indegree[k] --;  //从网中删除此顶点及所有出边
                         matrix[j][k] = 0;
                     }
                 }
