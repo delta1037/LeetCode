@@ -1,4 +1,4 @@
-# Install script for directory: /home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII
+# Install script for directory: /home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

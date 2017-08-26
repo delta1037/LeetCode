@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug"/>
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug"/>
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug"/>
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="210_CourseScheduleII">
-				<Option output="/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/210_CourseScheduleII" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug"/>
+				<Option output="/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/210_CourseScheduleII" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 210_CourseScheduleII"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 210_CourseScheduleII"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="210_CourseScheduleII/fast">
-				<Option output="/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/210_CourseScheduleII" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug"/>
+				<Option output="/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/210_CourseScheduleII" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,17 +77,17 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 210_CourseScheduleII/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 210_CourseScheduleII/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/main.c">
+		<Unit filename="/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/main.c">
 			<Option target="210_CourseScheduleII"/>
 		</Unit>
-		<Unit filename="/home/geniusrabbit/CLionProjects/LeedCode/210-CourseScheduleII/CMakeLists.txt">
+		<Unit filename="/home/geniusrabbit/CLionProjects/LeetCode/210-CourseScheduleII/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

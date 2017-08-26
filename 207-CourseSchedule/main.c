@@ -55,9 +55,9 @@ bool canFinish(int numCourses, int **prerequisites, int prerequisitesRowSize) {
         for (j = 0; j < numCourses; j ++) {
             if (indegree[j] == 0) {  //选择一个入度为0的顶点并输出之
                 indegree[j] --;
-                for (k = 0; k < numCourses; k ++) {
+                for (k = 0; k < numCourses; k ++) { //从网中删除此顶点及所有出边
                     if (matrix[j][k] == 1) {
-                        indegree[k] --;  //从网中删除此顶点及所有出边
+                        indegree[k] --;
                         matrix[j][k] = 0;
                     }
                 }
