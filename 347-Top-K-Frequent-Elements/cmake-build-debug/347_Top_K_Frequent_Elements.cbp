@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="347_Top_K_Frequent_Elements"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="347_Top_K_Frequent_Elements">
+				<Option output="/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/347_Top_K_Frequent_Elements" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 347_Top_K_Frequent_Elements"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="347_Top_K_Frequent_Elements/fast">
+				<Option output="/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/347_Top_K_Frequent_Elements" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 347_Top_K_Frequent_Elements/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/main.c">
+			<Option target="347_Top_K_Frequent_Elements"/>
+		</Unit>
+		<Unit filename="/home/geniusrabbit/CLionProjects/LeetCode/347-Top-K-Frequent-Elements/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
