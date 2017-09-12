@@ -9,4 +9,6 @@
 /home/geniusrabbit/CLionProjects/LeetCode/53-MaximumSubarray/main.c
 stdio.h
 -
+malloc.h
+-
 

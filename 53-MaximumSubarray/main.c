@@ -1,30 +1,14 @@
 #include <stdio.h>
+#include <malloc.h>
 
 
 int maxSubArray(int* nums, int numsSize) {
-    if (numsSize==0){
-        return 0;
+    int maxSum = nums[0], curSum = nums[0];
+    for(int i=1; i<numsSize; i++) {
+        curSum =  curSum<=0 ? nums[i] : nums[i]+curSum;
+        maxSum =maxSum>curSum? maxSum:curSum;
     }
-
-    int result=nums[0];
-    int matrix[numsSize][numsSize];
-    int i,k;
-
-    for(i=0;i<numsSize;i++){
-        matrix[i][i]=nums[i];
-    }
-
-    for(k=1;k<numsSize;k++){
-        for(i=0;i<numsSize-k;i++){
-            matrix[i][i+k]=nums[i+k]+matrix[i][i+k-1];
-            if(result<matrix[i][i+k]){
-                result=matrix[i][i+k];
-
-            }
-        }
-    }
-
-    return result;
+    return maxSum;
 }
 
 int main() {
