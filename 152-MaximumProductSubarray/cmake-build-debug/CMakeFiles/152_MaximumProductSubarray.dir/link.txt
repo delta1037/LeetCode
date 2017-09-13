@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/152_MaximumProductSubarray.dir/main.c.o  -o 152_MaximumProductSubarray 
