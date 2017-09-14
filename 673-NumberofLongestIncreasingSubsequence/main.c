@@ -4,25 +4,41 @@ int findNumberOfLIS(int* nums, int numsSize) {
     if(numsSize==0){
         return 0;
     }
-    int i,j;
+    int result=0;
+    int i,j,max=1;
     int dp[numsSize];
     dp[0]=1;
-    int result=1,max=1;
-    int max_num=nums[0];
-    int min_num=nums[0];
-
+    int length[numsSize];
+    length[0]=1;
     for(i=1;i<numsSize;i++){
-        if(nums[i]>max_num){
-            max_num=nums[i];
-            result++;
+        dp[i]=1;length[i]=1;
+        for(j=0;j<i;j++){
+            if(nums[i]>nums[j]){
+                if(dp[i]<dp[j]+1){
+                    dp[i]=dp[j]+1;
+                    length[i]=length[j];
+                }else if(dp[i]==dp[j]+1){
+                    length[i]+=length[j];
+                }
+            }
         }
+        max=max>dp[i]? max:dp[i];
+
 
     }
 
+    //printf("re=%d\n",result);
+    for(i=max-1;i<numsSize;i++){
+        if(dp[i]==max){
+            result+=length[i];
+        }
+    }
+
     return result;
+
 }
 int main() {
-    int num[5]={1,3,5,4,7};
+    int num[5]={1,1,1,1,1};
     int max;
     max=findNumberOfLIS(num,5);
     printf("%d",max);
