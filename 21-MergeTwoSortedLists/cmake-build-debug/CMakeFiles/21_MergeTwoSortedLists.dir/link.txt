@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/21_MergeTwoSortedLists.dir/main.c.o  -o 21_MergeTwoSortedLists 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/23_MergekSortedLists.dir/main.c.o  -o 23_MergekSortedLists 
