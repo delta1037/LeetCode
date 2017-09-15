@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/27_RemoveElement.dir/main.c.o  -o 27_RemoveElement 
