@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/35_SearchInsertPosition.dir/main.c.o  -o 35_SearchInsertPosition 
