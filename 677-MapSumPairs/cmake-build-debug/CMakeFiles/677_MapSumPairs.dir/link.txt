@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/677_MapSumPairs.dir/main.c.o  -o 677_MapSumPairs 

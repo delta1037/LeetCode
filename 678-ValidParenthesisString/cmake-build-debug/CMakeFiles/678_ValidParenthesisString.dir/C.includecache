@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geniusrabbit/CLionProjects/LeetCode/678-ValidParenthesisString/main.c
+stdio.h
+-
+stdbool.h
+-
+malloc.h
+-
+

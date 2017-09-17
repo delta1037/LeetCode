@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/678_ValidParenthesisString.dir/main.c.o  -o 678_ValidParenthesisString 
