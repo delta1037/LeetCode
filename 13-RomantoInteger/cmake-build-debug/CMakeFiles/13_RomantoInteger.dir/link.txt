@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/13_RomantoInteger.dir/main.c.o  -o 13_RomantoInteger 
