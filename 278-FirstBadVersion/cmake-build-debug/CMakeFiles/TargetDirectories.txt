@@ -1,0 +1,3 @@
+/home/geniusrabbit/CLionProjects/LeetCode/278-FirstBadVersion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/geniusrabbit/CLionProjects/LeetCode/278-FirstBadVersion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/geniusrabbit/CLionProjects/LeetCode/278-FirstBadVersion/cmake-build-debug/CMakeFiles/278_FirstBadVersion.dir
