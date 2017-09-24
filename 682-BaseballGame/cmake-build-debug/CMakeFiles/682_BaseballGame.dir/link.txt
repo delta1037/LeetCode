@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/682_BaseballGame.dir/main.c.o  -o 682_BaseballGame 
