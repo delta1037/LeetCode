@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/61_RotateList.dir/main.c.o  -o 61_RotateList 
