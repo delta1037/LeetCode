@@ -2,15 +2,31 @@
 
 int lengthOfLongestSubstring(char* s) {
 
-    if(s[0]=='\0'){
-        return 0;
+    int max=0;
+    int i=0,k=0;
+    int j;
+    while(s[i]!='\0'){
+        j=i-k;
+        k=0;
+        for(;j<i;j++){
+            if(s[i]==s[j]){
+                k=0;
+            }
+            else{
+                k++;
+            }
+        }
+
+        if(k>max){
+            max=k;
+        }
+
+        i++;
+
     }
 
-    int max=1;
-    int i=1,k=1;
-    while(s[i]!='\0'){
-        for()
-    }
+
+    return max;
 }
 int main() {
     printf("Hello, World!\n");
