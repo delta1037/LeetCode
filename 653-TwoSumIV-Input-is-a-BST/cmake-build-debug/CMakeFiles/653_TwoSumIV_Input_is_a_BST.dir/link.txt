@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/653_TwoSumIV_Input_is_a_BST.dir/main.c.o  -o 653_TwoSumIV_Input_is_a_BST 
