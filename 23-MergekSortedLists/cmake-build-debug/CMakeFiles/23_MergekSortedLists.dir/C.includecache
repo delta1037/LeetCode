@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geniusrabbit/CLionProjects/LeetCode/23-MergekSortedLists/main.c
+stdio.h
+-
+stdint.h
+-
+stdbool.h
+-
+

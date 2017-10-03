@@ -10,48 +10,72 @@ struct ListNode {
 
 struct ListNode* mergeKLists(struct ListNode** lists, int listsSize) {
 
+    struct ListNode* l1=lists[0];
+    struct ListNode* l2;
     struct ListNode* L=NULL;
-    struct ListNode* last;
-    int i=0;
-    int minNum=INT16_MAX;
-    int minIndex=-1;
-
-    while(i<listsSize){
-        if(lists[i]!=NULL&&minNum>lists[i]->val){
-            minIndex=i;
-        }
-        i++;
-    }
-
-    if(minIndex!=-1){
-        L=lists[minIndex];
-        lists[minIndex]=lists[minIndex]->next;
-        last=L;
-    }else{
+    int i;
+    if(listsSize==0){
         return NULL;
     }
+    if(listsSize==1){
+        return lists[0];
+    }
 
-    while(1){
-        i=0;
-        minNum=INT16_MAX;
-        minIndex=-1;
+    for(i=1;i<listsSize;i++){
+        l2=lists[i];
+        if(l1!=NULL&&l2!=NULL){
 
-        while(i<listsSize){
-            if(lists[i]!=NULL&&minNum>lists[i]->val){
-                minIndex=i;
+            if(l1->val<l2->val){
+                L=l1;
+                l1=l1->next;
             }
-            i++;
-        }
+            else{
+                L=l2;
+                l2=l2->next;
+            }
 
-        if(minIndex==-1){
-            last->next=lists[minIndex];
-            lists[minIndex]=lists[minIndex]->next;
+        }else if(l1==NULL&&l2!=NULL){
+
+            L=l2;
+            l2=l2->next;
+
+        }else if(l1!=NULL){
+
+            L=l1;
+            l1=l1->next;
 
         }else{
-            return L;
+
+            return l1;
+
         }
 
+        struct ListNode* last=L;
+
+        while(l1!=NULL&&l2!=NULL){
+            if(l1->val<l2->val){
+                last->next=l1;
+                last=l1;
+                l1=l1->next;
+            }
+            else{
+                last->next=l2;
+                last=l2;
+                l2=l2->next;
+            }
+        }
+
+        if(l1!=NULL){
+            last->next=l1;
+        }
+        else if(l2!=NULL){
+            last->next=l2;
+        }
+
+        l1=L;
     }
+
+    return L;
 }
 int main() {
     printf("Hello, World!\n");
