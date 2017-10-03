@@ -4,43 +4,40 @@
 #include <malloc.h>
 
 bool isInterleave(char* s1, char* s2, char* s3) {
-    int nums3=(int)strlen(s3);
-    char* ss=(char*)malloc(nums3*sizeof(char));
-    int i=0;
-    int j=0;
-    int k=0;
-    while (s3[j]!='\0'){
-        if(s3[j]==s2[i]&&s2[i]!='\0'){
-            j++;
-            i++;
-        }
-        else{
-            ss[k]=s3[j];
-            ss[k+1]='\0';
-            k++;
-            j++;
-        }
-    }
+    int len1=(int)strlen(s1);
+    int len2=(int)strlen(s2);
+    int len3=(int)strlen(s3);
 
-    if(s2[i]!='\0'){
+    if(len3!=(len1+len2)){
         return false;
     }
 
-    i=0;
-
-    while (ss[i]!='\0'){
-        if(ss[i]==s1[i]){
-            i++;
-        }
-        else{
-            return false;
-        }
-    }
-    if(s1[i]!='\0'){
-        return false;
+    bool** dp=(bool**)malloc((len1+1)* sizeof(bool*));
+    for(int k=0;k<=len1;k++){
+        dp[k]=(bool*)malloc((len2+1)*sizeof(bool));
     }
 
-    return true;
+    int i,j;
+    for(i=0;i<=len1;i++){
+
+        for(j=0;j<=len2;j++){
+            if(i==0&&j==0){
+                dp[i][j]=true;
+            }
+            else if(i==0){
+                dp[i][j] = ( dp[i][j-1] && s2[j-1] == s3[i+j-1]);
+            }
+            else if(j==0){
+                dp[i][j] = ( dp[i-1][j] && s1[i-1] == s3[i+j-1]);
+
+            }
+            else{
+                dp[i][j] = (dp[i-1][j] && s1[i-1] == s3[i+j-1] ) || (dp[i][j-1] && s2[j-1] == s3[i+j-1] );
+            }
+        }
+    }
+
+    return dp[len1][len2];
 }
 int main() {
     printf("Hello, World!\n");
