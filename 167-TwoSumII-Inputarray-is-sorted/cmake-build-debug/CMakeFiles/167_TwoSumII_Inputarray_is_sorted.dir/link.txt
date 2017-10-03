@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/167_TwoSumII_Inputarray_is_sorted.dir/main.c.o  -o 167_TwoSumII_Inputarray_is_sorted 
