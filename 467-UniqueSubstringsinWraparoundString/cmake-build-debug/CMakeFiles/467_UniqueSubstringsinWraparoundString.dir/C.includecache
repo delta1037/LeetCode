@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geniusrabbit/CLionProjects/LeetCode/467-UniqueSubstringsinWraparoundString/main.c
+stdio.h
+-
+string.h
+-
+
