@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/122_Best_Time_to_Buy_and_Sell_Stock_II.dir/main.c.o  -o 122_Best_Time_to_Buy_and_Sell_Stock_II 
