@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/547_FriendCircles.dir/main.c.o  -o 547_FriendCircles 
