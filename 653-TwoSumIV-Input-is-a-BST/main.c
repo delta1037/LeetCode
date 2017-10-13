@@ -12,53 +12,33 @@ struct TreeNode {
     struct TreeNode *right;
 };
 
-typedef  struct nodelist{//栈的节点
-    int elist;
-    struct nodelist *next;
-
-}nodelist,*linknodelist;
-
-linknodelist last;
-
 int i=0;
-int numbers[1000];
+int nums[10000];
 
-int pop(){
-    int num;
-    linknodelist t;
-    t=last;
-    last=last->next;
-    num=t->elist;
-    free(t);
-    return num;
-}
-void push(struct TreeNode* L){
-    linknodelist l=(linknodelist)malloc(sizeof(nodelist));
-    l->elist=L->val;
-    l->next=last;
-    last=l;
-}
-void middle_travel(struct TreeNode* L){
-    push(L);
-
-    if(L->left){
-        middle_travel(L->left);
+void middle_travel(struct TreeNode* root){
+    if(root==NULL){
+        return;
     }
-    numbers[i]=pop();
+
+    middle_travel(root->left);
+    nums[i]=root->val;
     i++;
-    if(L->right){
-        middle_travel(L->right);
-    }
+    middle_travel(root->right);
 }
 bool findTarget(struct TreeNode* root, int k) {
-    int left=0;
-    int right=i-1;
+    if(root==NULL){
+        return false;
+    }
+
     middle_travel(root);
+
+    int left=0,right=i;
+
     while(left<right){
-        if(numbers[left]+numbers[right]==k){
+        if(nums[left]+nums[right]==k){
             return true;
         }
-        else if(numbers[left]+numbers[right]>k){
+        else if(nums[left]+nums[right]>k){
             right--;
         }
         else{
@@ -66,9 +46,10 @@ bool findTarget(struct TreeNode* root, int k) {
         }
     }
     return false;
-
 }
 int main() {
     printf("Hello, World!\n");
+    //[0,-1,2,-3,null,null,4]
+    //-4
     return 0;
 }
