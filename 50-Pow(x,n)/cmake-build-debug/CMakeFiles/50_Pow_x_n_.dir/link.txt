@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/50_Pow_x_n_.dir/main.c.o  -o 50_Pow_x_n_ 
