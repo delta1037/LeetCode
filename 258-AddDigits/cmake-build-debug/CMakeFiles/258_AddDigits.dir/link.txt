@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/258_AddDigits.dir/main.c.o  -o 258_AddDigits 
