@@ -2,29 +2,35 @@
 #include <malloc.h>
 #include <stdbool.h>
 
-int findCircleNum(int** M, int MRowSize, int MColSize) {
-    int n = MRowSize, res = 0;
-    bool* visited=(bool*)malloc(n* sizeof(bool));
-    int =queue
-    for (int i = 0; i < n; ++i) {
-        if (visited[i]) continue;
-        q.push(i);
-        while (!q.empty()) {
-            int t = q.front(); q.pop();
-            visited[t] = true;
-            for (int j = 0; j < n; ++j) {
-                if (!M[t][j] || visited[j]) continue;
-                q.push(j);
-            }
+void dfs(int** M,bool* visited,int i,int MColSize){
+    int j;
+    for(j=0;j<MColSize;j++){
+        if(M[i][j]==1&&(!visited[j])){
+            visited[j]=true;
+            dfs(M,visited,j,MColSize);
         }
-        ++res;
     }
-    return res;
-
-
-
-
 }
+int findCircleNum(int** M, int MRowSize, int MColSize) {
+    int i;
+    int sum=0;
+    bool* visited=(bool*)malloc(MColSize* sizeof(bool));
+
+    for(i=0;i<MColSize;i++){
+        visited[i]=false;
+    }
+
+    for(i=0;i<MColSize;i++){
+        if(!visited[i]){
+            dfs(M,visited,i,MColSize);
+            sum++;
+        }
+
+    }
+
+    return sum;
+}
+
 int main() {
     printf("Hello, World!\n");
     return 0;
