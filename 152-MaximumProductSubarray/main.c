@@ -1,29 +1,28 @@
 #include <stdio.h>
-#include <malloc.h>
+#include <limits.h>
 
-int maxProduct(int* nums, int numsSize) {
-    int result=nums[0];
-    int** matrix=(int**)malloc(numsSize*sizeof(int*));
-    int i,k;
-
-    for(i=0;i<numsSize;i++){
-        matrix[i]=(int*)malloc(numsSize*sizeof(int));
-        matrix[i][i]=nums[i];
-        result=(result>nums[i]? result:nums[i]);
-    }
-
-    for(k=1;k<numsSize;k++){
-        for(i=0;i<numsSize-k;i++){
-            matrix[i][i+k]=nums[i+k]*matrix[i][i+k-1];
-            if(result<=matrix[i][i+k]){
-                result=matrix[i][i+k];
-
-            }
-        }
-    }
-
-    return result;
+int max(int a,int b){
+    return a>b? a:b;
 }
+int maxProduct(int* nums, int numsSize) {
+
+    int frontProduct = 1;
+    int backProduct = 1;
+    int ans = INT_MIN;
+
+    for (int i = 0; i < numsSize; ++i) {
+        frontProduct *= nums[i];
+        backProduct *= nums[numsSize-i-1];
+
+        ans = max(ans,max(frontProduct,backProduct));
+
+        frontProduct = frontProduct == 0 ? 1 : frontProduct;
+        backProduct = backProduct == 0 ? 1 : backProduct;
+    }
+
+    return ans;
+}
+
 int main() {
     int max;
     int num[4]={2,3,-2,4};
