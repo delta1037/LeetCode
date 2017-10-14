@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <limits.h>
 
+/**
+ * 题解：
+ * 数组中可能有奇数个负数或者偶数个奇数
+ * 当有偶数个负数时，全部相乘，
+ * 当有奇数个负数时，用前乘和后乘来判断要舍去哪个奇数
+ */
 int max(int a,int b){
     return a>b? a:b;
 }
