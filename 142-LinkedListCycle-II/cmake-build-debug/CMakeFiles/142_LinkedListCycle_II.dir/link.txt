@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/142_LinkedListCycle_II.dir/main.c.o  -o 142_LinkedListCycle_II 
