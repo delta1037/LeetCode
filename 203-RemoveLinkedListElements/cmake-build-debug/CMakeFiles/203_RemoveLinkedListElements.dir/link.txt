@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/203_RemoveLinkedListElements.dir/main.c.o  -o 203_RemoveLinkedListElements 
