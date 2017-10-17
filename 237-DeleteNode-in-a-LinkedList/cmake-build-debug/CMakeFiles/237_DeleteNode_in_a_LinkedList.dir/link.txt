@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/237_DeleteNode_in_a_LinkedList.dir/main.c.o  -o 237_DeleteNode_in_a_LinkedList 
