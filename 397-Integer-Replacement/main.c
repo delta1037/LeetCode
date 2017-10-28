@@ -1,41 +1,40 @@
 #include <stdio.h>
+#include <limits.h>
 
 int integerReplacement(int n) {
-    int result=0;
-    int nums[65]={0};
-    int t=0,i;
-    int num=0;
-
-    while(n>0){
-        nums[num]=n%2;
-        n=n/2;
-        num++;
+    int res=0;
+    if (n == 1){
+        return res;
+    }
+    if (n == 3)
+    {
+        res += 2;
+        return res;
+    }
+    if (n == INT_MAX){
+        return 32;
     }
 
-    num--;
-
-    for(i=0;i<num;i++) {
-        if(nums[i]==1){
-            while (nums[i]==1){
-              t++;
-              i++;
-            }
-
-            if(t>=3){
-                nums[i]=1;
-                while(t>0){
-                    nums[i-t]=0;
-
-                }
-
-            }
+    if (n & 1)
+    {
+        res ++;
+        if ((n + 1) % 4 == 0){
+            res+=integerReplacement(n + 1);
+        }else{
+            res+=integerReplacement(n - 1);
         }
+
+    }else
+    {
+        res ++;
+        res+=integerReplacement(n / 2);
     }
 
-    return result;
+    return res;
+
 }
 int main() {
-  int result=integerReplacement(65535);
+  int result=integerReplacement(100000000);
   printf("%d",result);
   return 0;
 }
