@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/419_Battleships_in_a_Board.dir/main.c.o  -o 419_Battleships_in_a_Board 
