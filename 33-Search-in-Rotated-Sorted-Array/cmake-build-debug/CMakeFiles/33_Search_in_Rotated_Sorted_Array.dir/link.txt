@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/33_Search_in_Rotated_Sorted_Array.dir/main.c.o  -o 33_Search_in_Rotated_Sorted_Array 
