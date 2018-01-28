@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/34_Search_for_a_Range.dir/main.c.o  -o 34_Search_for_a_Range 
