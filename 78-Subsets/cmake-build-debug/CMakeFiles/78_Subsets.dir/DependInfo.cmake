@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/geniusrabbit/CLionProjects/LeetCode/78-Subsets/main.c" "/home/geniusrabbit/CLionProjects/LeetCode/78-Subsets/cmake-build-debug/CMakeFiles/78_Subsets.dir/main.c.o"
+  "/home/geniusrabbit/home/CLionProjects/LeetCode/78-Subsets/main.c" "/home/geniusrabbit/home/CLionProjects/LeetCode/78-Subsets/cmake-build-debug/CMakeFiles/78_Subsets.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
