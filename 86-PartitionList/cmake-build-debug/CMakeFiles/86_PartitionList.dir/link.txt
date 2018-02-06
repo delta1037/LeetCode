@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/86_PartitionList.dir/main.c.o  -o 86_PartitionList 
