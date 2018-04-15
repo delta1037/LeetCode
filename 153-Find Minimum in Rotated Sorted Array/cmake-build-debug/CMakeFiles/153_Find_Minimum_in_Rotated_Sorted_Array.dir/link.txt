@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/153_Find_Minimum_in_Rotated_Sorted_Array.dir/main.c.o  -o 153_Find_Minimum_in_Rotated_Sorted_Array 
