@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geniusrabbit/home/CLionProjects/LeetCode/202-Happy Number/main.c
+stdio.h
+-
+stdbool.h
+-
+malloc.h
+-
+zconf.h
+-
+

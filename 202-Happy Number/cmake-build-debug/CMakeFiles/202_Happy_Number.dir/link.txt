@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/202_Happy_Number.dir/main.c.o  -o 202_Happy_Number 
