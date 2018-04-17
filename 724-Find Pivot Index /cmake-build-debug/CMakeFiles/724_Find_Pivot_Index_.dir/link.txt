@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/724_Find_Pivot_Index_.dir/main.c.o  -o 724_Find_Pivot_Index_ 
