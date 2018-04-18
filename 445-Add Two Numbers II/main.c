@@ -12,15 +12,20 @@ struct ListNode {
   struct ListNode *next;
 };
 int addNums(int* num1,int* num2,int m,int n){
+  m--;
+  n--;
   int yu=0;
-  while(m>0){
+  int t;
+  while(m>=0){
     if(n<0){
+      t=num1[m];
       num1[m]=(num1[m]+yu)%10;
-      yu=(num1[m]+yu)/10;
+      yu=(t+yu)/10;
       m--;
     } else{
+      t=num1[m];
       num1[m]=(num1[m]+num2[n]+yu)%10;
-      yu=(num1[m]+num2[n])/10;
+      yu=(t+num2[n]+yu)/10;
       m--;n--;
     }
   }
