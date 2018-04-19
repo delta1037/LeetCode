@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/532_K_diff_Pairs_in_an_Array.dir/main.c.o  -o 532_K_diff_Pairs_in_an_Array 
