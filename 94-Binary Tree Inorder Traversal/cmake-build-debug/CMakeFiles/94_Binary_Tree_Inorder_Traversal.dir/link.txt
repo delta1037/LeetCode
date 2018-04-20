@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/94_Binary_Tree_Inorder_Traversal.dir/main.c.o  -o 94_Binary_Tree_Inorder_Traversal 
