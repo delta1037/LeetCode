@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/41_First_Missing_Positive.dir/main.c.o  -o 41_First_Missing_Positive 
