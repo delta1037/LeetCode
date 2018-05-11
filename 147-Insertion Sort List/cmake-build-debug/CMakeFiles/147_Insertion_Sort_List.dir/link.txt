@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/147_Insertion_Sort_List.dir/main.cpp.o  -o 147_Insertion_Sort_List 

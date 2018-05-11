@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/24_Swap_Nodes_in_Pairs.dir/main.cpp.o  -o 24_Swap_Nodes_in_Pairs 
