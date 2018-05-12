@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/326_Power_of_Three.dir/main.cpp.o  -o 326_Power_of_Three 

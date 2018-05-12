@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/342_Power_of_Four.dir/main.cpp.o  -o 342_Power_of_Four 

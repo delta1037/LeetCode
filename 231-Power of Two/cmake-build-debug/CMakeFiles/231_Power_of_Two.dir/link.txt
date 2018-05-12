@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/231_Power_of_Two.dir/main.cpp.o  -o 231_Power_of_Two 

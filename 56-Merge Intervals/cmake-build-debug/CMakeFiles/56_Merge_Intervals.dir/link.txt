@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/56_Merge_Intervals.dir/main.cpp.o  -o 56_Merge_Intervals 

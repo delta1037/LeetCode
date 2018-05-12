@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/349_Intersection_of_Two_Arrays.dir/main.cpp.o  -o 349_Intersection_of_Two_Arrays 
