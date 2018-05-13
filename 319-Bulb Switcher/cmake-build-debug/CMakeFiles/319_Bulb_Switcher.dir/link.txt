@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/319_Bulb_Switcher.dir/main.cpp.o  -o 319_Bulb_Switcher 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/8_String_to_Integer__atoi_.dir/main.cpp.o  -o 8_String_to_Integer__atoi_ 

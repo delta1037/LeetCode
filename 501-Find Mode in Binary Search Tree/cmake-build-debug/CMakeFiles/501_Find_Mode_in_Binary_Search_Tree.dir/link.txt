@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/501_Find_Mode_in_Binary_Search_Tree.dir/main.cpp.o  -o 501_Find_Mode_in_Binary_Search_Tree 
