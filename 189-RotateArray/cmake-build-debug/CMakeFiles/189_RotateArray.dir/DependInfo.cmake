@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/geniusrabbit/CLionProjects/LeetCode/189-RotateArray/main.c" "/home/geniusrabbit/CLionProjects/LeetCode/189-RotateArray/cmake-build-debug/CMakeFiles/189_RotateArray.dir/main.c.o"
+  "/home/geniusrabbit/ghome/CLionProjects/LeetCode/189-RotateArray/main.c" "/home/geniusrabbit/ghome/CLionProjects/LeetCode/189-RotateArray/cmake-build-debug/CMakeFiles/189_RotateArray.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

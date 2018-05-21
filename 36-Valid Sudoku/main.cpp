@@ -11,7 +11,8 @@ public:
         for(col=0;col<9;col++){
           if(board[row][col]!='.'){
             bool nums[9]={false};
-            for(i=0;i<row;i++){
+            //set row number
+            for(i=0;i<9;i++){
               if(board[row][i]!='.'){
                 if(!nums[board[i][col]-'0']){
                   nums[board[i][col]-'0']=true;
@@ -20,19 +21,9 @@ public:
                 }
               }
             }
-            for(i=row+1;i<9;i++){
-              if(board[row][i]!='.'){
-                if(!nums[board[i][col]-'0']){
-                  nums[board[i][col]-'0']=true;
-                }else{
-                  return false;
-                }
-              }
-
-            }
-
-            for(i=0;i<col;i++){
-              if(board[row][i]!='.'){
+            //set col number
+            for(i=0;i<9;i++){
+              if(i!=col&&board[row][i]!='.'){
                 if(!nums[board[row][i]-'0']){
                   nums[board[row][i]-'0']=true;
                 }else{
@@ -40,18 +31,6 @@ public:
                 }
               }
             }
-
-            for(i=col+1;i<9;i++){
-              if(board[row][i]!='.'){
-                if(!nums[board[row][i]-'0']){
-                  nums[board[row][i]-'0']=true;
-                }else{
-                  return false;
-                }
-              }
-
-            }
-
             for(i=row-row%3,m=0;m<3;m++,i++){
               for(j=col-col%3,n=0;n<3;n++,j++){
                 if(board[i][j]!='.'){
@@ -63,11 +42,7 @@ public:
                 }
               }
             }
-
-
           }
-
-
         }
       }
       return true;
