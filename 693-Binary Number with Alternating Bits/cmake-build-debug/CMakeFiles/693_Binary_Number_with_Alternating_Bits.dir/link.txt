@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/693_Binary_Number_with_Alternating_Bits.dir/main.cpp.o  -o 693_Binary_Number_with_Alternating_Bits 
