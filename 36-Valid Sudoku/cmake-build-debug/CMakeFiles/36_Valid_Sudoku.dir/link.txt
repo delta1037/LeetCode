@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11 -g   CMakeFiles/36_Valid_Sudoku.dir/main.cpp.o CMakeFiles/36_Valid_Sudoku.dir/36_Valid_Sudoku_autogen/mocs_compilation.cpp.o  -o ../bin/36_Valid_Sudoku /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1 
+/usr/bin/c++  -g   CMakeFiles/36_Valid_Sudoku.dir/main.cpp.o  -o 36_Valid_Sudoku 
