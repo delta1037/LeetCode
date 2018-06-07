@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/79_Word_Search.dir/main.cpp.o  -o 79_Word_Search 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/58_Length_of_Last_Word.dir/main.cpp.o  -o 58_Length_of_Last_Word 
