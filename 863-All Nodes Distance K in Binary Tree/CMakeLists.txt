@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(863_All_Nodes_Distance_K_in_Binary_Tree)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(863_All_Nodes_Distance_K_in_Binary_Tree main.cpp)

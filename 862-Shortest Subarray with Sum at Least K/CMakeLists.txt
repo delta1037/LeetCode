@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(862_Shortest_Subarray_with_Sum_at_Least_K)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(862_Shortest_Subarray_with_Sum_at_Least_K main.cpp)
