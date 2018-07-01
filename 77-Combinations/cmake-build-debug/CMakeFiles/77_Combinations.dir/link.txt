@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/77_Combinations.dir/main.cpp.o  -o 77_Combinations 
