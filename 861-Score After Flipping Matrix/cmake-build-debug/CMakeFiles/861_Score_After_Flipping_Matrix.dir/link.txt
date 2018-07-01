@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/861_Score_After_Flipping_Matrix.dir/main.cpp.o  -o 861_Score_After_Flipping_Matrix 
