@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/572_Subtree_of_Another_Tree.dir/main.cpp.o  -o 572_Subtree_of_Another_Tree 

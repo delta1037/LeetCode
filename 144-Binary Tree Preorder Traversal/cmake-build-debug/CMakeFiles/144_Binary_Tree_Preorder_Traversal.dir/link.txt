@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/144_Binary_Tree_Preorder_Traversal.dir/main.cpp.o  -o 144_Binary_Tree_Preorder_Traversal 
