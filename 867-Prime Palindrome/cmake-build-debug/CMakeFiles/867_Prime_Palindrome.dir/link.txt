@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/867_Prime_Palindrome.dir/main.cpp.o  -o 867_Prime_Palindrome 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/868_Transpose_Matrix.dir/main.cpp.o  -o 868_Transpose_Matrix 

@@ -1,0 +1,3 @@
+/home/geniusrabbit/home/MultiThread/868-Transpose Matrix/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/geniusrabbit/home/MultiThread/868-Transpose Matrix/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/geniusrabbit/home/MultiThread/868-Transpose Matrix/cmake-build-debug/CMakeFiles/868_Transpose_Matrix.dir
