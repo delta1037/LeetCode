@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/507_Perfect_Number.dir/main.cpp.o  -o 507_Perfect_Number 

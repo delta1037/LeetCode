@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/728_Self_Dividing_Numbers.dir/main.cpp.o  -o 728_Self_Dividing_Numbers 

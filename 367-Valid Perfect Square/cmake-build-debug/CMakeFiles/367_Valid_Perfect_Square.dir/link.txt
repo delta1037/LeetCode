@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/367_Valid_Perfect_Square.dir/main.cpp.o  -o 367_Valid_Perfect_Square 

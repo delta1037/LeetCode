@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/66_Plus_One.dir/main.cpp.o  -o 66_Plus_One 
