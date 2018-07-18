@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/868_Binary_Gap.dir/main.cpp.o  -o 868_Binary_Gap 
