@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/38_Count_and_Say.dir/main.cpp.o  -o 38_Count_and_Say 

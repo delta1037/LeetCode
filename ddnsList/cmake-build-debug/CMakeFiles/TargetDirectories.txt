@@ -1,3 +1,0 @@
-/home/geniusrabbit/home/CLionProjects/LeetCode/ddnsList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/geniusrabbit/home/CLionProjects/LeetCode/ddnsList/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/geniusrabbit/home/CLionProjects/LeetCode/ddnsList/cmake-build-debug/CMakeFiles/ddnsList.dir
