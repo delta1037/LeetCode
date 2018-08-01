@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/5_Longest_Palindromic_Substring.dir/main.cpp.o  -o 5_Longest_Palindromic_Substring 

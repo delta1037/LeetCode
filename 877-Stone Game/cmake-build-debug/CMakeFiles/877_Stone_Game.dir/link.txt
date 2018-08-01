@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/877_Stone_Game.dir/main.cpp.o  -o 877_Stone_Game 
